@@ -1,0 +1,12 @@
+ID: fiorineo
+version: '1.0'
+_schema-version: '3.1'
+parameters:
+  hcp-deployer-version: 1.1.0
+  title: fiorineo
+modules:
+- name: fiorineo
+  type: com.sap.hcp.html5
+  parameters:
+    name: fiorineo
+    version: 1.0.0

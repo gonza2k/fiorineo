@@ -1,0 +1,20 @@
+ID: fiorineo
+version: '1.0'
+_schema-version: '3.1'
+parameters:
+  hcp-deployer-version: 1.1.0
+  title: fiorineo
+modules:
+- name: fiorineo
+  type: com.sap.hcp.html5
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    name: fiorineo
+    version: 1.0.0
