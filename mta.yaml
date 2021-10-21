@@ -12,7 +12,6 @@ modules:
     builder: zip, grunt, fetcher (choose one)
     fetcher-opts:
       repo-type: maven
-      repo-coordinates: group-id:artifact-id:version:type:classifier
   parameters:
     name: fiorineo
     version: 1.0
