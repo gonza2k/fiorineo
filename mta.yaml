@@ -15,4 +15,4 @@ modules:
       repo-coordinates: group-id:artifact-id:version:type:classifier
   parameters:
     name: fiorineo
-    version: 1.0.0
+    version: 1.0
