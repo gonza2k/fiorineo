@@ -13,8 +13,6 @@ modules:
     fetcher-opts:
       repo-type: maven
       repo-coordinates: group-id:artifact-id:version:type:classifier
-    grunt-opts:
-    - clean
   parameters:
     name: fiorineo
     version: 1.0.0
