@@ -8,6 +8,3 @@ modules:
 - name: fiorineo
   type: com.sap.hcp.html5
   path: html5-app-folder
-  parameters:
-    name: fiorineo
-    version: 1.0
