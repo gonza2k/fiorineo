@@ -1,5 +1,4 @@
 ID: fiorineo
-version: '1.0'
 _schema-version: '3.1'
 modules:
 - name: fiorineo
